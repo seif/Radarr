@@ -4,3 +4,6 @@
 chown -R abc:abc \
 	/config \
 	/app
+
+# make etc readable and executable so dotnet can read env info while urnning under $PUID user
+chmod a+rx /etc/
