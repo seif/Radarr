@@ -1,0 +1,7 @@
+vagrant/*
+.tmp/*
+.git/*
+_output
+_tests
+_temp
+
